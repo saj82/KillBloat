@@ -1,0 +1,6 @@
+@echo off
+REM Start Armoury Create Services that was stopped manually!
+sc start ArmouryCrateService
+sc start asComSvc
+sc start AsusCertService
+sc start AsusFanControlService
